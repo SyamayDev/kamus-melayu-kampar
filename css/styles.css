@@ -48,7 +48,7 @@ body {
 }
 
 .batik-bottom {
-  background: url("../img/batik-pattern.png") repeat-x;
+  background: url("../img/batik-pattern.webp") repeat-x;
   height: 150px; /* Tinggi disesuaikan, ubah sesuai ukuran asli gambar */
   width: 100%;
   background-size: auto; /* Menjaga proporsi asli gambar */
