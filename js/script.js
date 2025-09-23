@@ -72,12 +72,7 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 
   // --- Logika untuk Pencarian Suara ---
-  const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
-
-  navigator.mediaDevices
-    .getUserMedia({ audio: true })
-    .then(() => console.log("Izin mikrofon diberikan"))
-    .catch((err) => console.error("Izin mikrofon ditolak:", err));
+  const SpeechRecognition = window.webkitSpeechRecognition || window.SpeechRecognition;
 
   if (SpeechRecognition) {
     voiceSearchBtn.classList.add("show");
@@ -86,32 +81,74 @@ document.addEventListener("DOMContentLoaded", function () {
 
     voiceSearchBtn.addEventListener("click", () => {
       if (!listening) {
+        if (!('webkitSpeechRecognition' in window)) {
+          alert('Browser Anda tidak mendukung fitur pencarian suara.');
+          return;
+        }
+
         const recognition = new SpeechRecognition();
-        recognition.lang = "id-ID";
+        recognition.lang = 'id-ID';
+        recognition.continuous = false;
+        recognition.interimResults = true;
 
-        recognition.onstart = () => {
-          voiceSearchBtn.classList.add("active");
-          listening = true;
-        };
+        // Buat elemen popup untuk menampilkan status suara
+        let voicePopup = document.createElement("div");
+        voicePopup.className = "voice-popup";
+        voicePopup.id = "voicePopup";
+        voicePopup.innerHTML = "<p>Mendengarkan...</p>";
+        document.body.appendChild(voicePopup);
 
-        recognition.onspeechend = () => {
-          recognition.stop();
-          voiceSearchBtn.classList.remove("active");
-          listening = false;
-        };
-
-        recognition.onerror = () => {
-          voiceSearchBtn.classList.remove("active");
-          listening = false;
-        };
+        // Hapus modal backdrop jika ada
+        document.body.classList.remove('modal-open');
+        if (document.querySelector('.modal-backdrop')) {
+          document.querySelector('.modal-backdrop').remove();
+        }
 
         recognition.onresult = (event) => {
-          const transcript = event.results[0][0].transcript;
-          searchInput.value = transcript;
-          searchInput.dispatchEvent(new Event("input", { bubbles: true }));
+          const interimTranscript = Array.from(event.results)
+            .map(result => result[0].transcript)
+            .join('');
+          voicePopup.innerHTML = `<p>${interimTranscript || 'Mendengarkan...'}</p>`;
+          if (event.results[0].isFinal) {
+            searchInput.value = event.results[0][0].transcript;
+            searchInput.dispatchEvent(new Event("input", { bubbles: true }));
+            setTimeout(() => {
+              voicePopup.remove();
+              document.body.classList.remove('modal-open');
+            }, 1000);
+          }
+        };
+
+        recognition.onend = () => {
+          if (voicePopup.innerHTML.includes('Mendengarkan...')) {
+            voicePopup.innerHTML = "<p>Tidak ada suara terdeteksi</p>";
+            setTimeout(() => {
+              voicePopup.remove();
+              document.body.classList.remove('modal-open');
+            }, 1000);
+          }
+        };
+
+        recognition.onerror = (event) => {
+          voicePopup.innerHTML = `<p>Error: ${event.error}</p>`;
+          setTimeout(() => {
+            voicePopup.remove();
+            document.body.classList.remove('modal-open');
+          }, 1000);
+          console.error('Voice recognition error:', event.error);
         };
 
         recognition.start();
+        listening = true;
+
+        // Hentikan recognition saat tombol diklik lagi atau waktu habis
+        voiceSearchBtn.addEventListener("click", () => {
+          if (listening) {
+            recognition.stop();
+            listening = false;
+            if (voicePopup) voicePopup.remove();
+          }
+        }, { once: true });
       }
     });
   }
