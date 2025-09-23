@@ -116,7 +116,7 @@ body {
 
 /* Body untuk Halaman Kamus (Dipertahankan dengan Penambahan Batik) */
 .kamus-body {
-  background-image: url("../img/batik-pattern.png");
+  background-image: url("../img/batik-pattern.webp");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
