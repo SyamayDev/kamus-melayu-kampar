@@ -2,8 +2,7 @@ document.addEventListener("DOMContentLoaded", function () {
   let dictionary = [];
   let currentData = []; // Data yang sedang ditampilkan
   let listening = false;
-  let startIndex = 0; // Indeks awal data yang ditampilkan
-  let endIndex = 0; // Indeks akhir data yang ditampilkan
+  let page = 1;
   const itemsPerPage = 15; // Tampilkan 15 item per halaman
   let isLoading = false; // Flag untuk mencegah loading ganda
 
@@ -27,9 +26,8 @@ document.addEventListener("DOMContentLoaded", function () {
           item.melayu_kampar.toLowerCase().includes(query) ||
           (item.english && item.english.toLowerCase().includes(query))
       );
-      resultsContainer.innerHTML = ""; // Reset untuk pencarian baru
-      startIndex = 0;
-      endIndex = itemsPerPage - 1;
+      resultsContainer.innerHTML = ""; // Kosongkan untuk pencarian baru
+      page = 1;
       displayResults(currentData);
     } else {
       resetToInitialView();
@@ -37,41 +35,29 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
   function displayResults(data) {
-    const scrollPosition = resultsContainer.scrollTop; // Simpan posisi scroll
-    const itemsToDisplay = data.slice(startIndex, endIndex + 1);
+    const start = (page - 1) * itemsPerPage;
+    const end = start + itemsPerPage;
+    const itemsToDisplay = data.slice(start, end);
 
-    if (itemsToDisplay.length === 0) {
+    if (itemsToDisplay.length === 0 && start === 0) {
       resultsContainer.innerHTML = `<p class="text-center text-muted col-12 mt-4">Kata tidak ditemukan.</p>`;
       return;
     }
 
-    // Hapus elemen lama jika ada
-    while (resultsContainer.children.length > itemsPerPage) {
-      resultsContainer.removeChild(resultsContainer.firstElementChild);
-    }
-
-    // Tambahkan item baru di bawah
     itemsToDisplay.forEach((item) => {
-      if (!resultsContainer.querySelector(`[data-id="${item.id || item.indonesian}"]`)) {
-        const card = `
-          <div class="col-12 col-md-6 col-lg-4" data-id="${item.id || item.indonesian}">
-            <div class="card">
-              <div class="card-body">
-                <h5 class="card-title">${item.indonesian}</h5>
-                <p class="card-text"><strong>Melayu:</strong> ${item.melayu_kampar}</p>
-                <p class="card-text"><strong>Inggris:</strong> ${item.english}</p>
-              </div>
+      const card = `
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">${item.indonesian}</h5>
+              <p class="card-text"><strong>Melayu:</strong> ${item.melayu_kampar}</p>
+              <p class="card-text"><strong>Inggris:</strong> ${item.english}</p>
             </div>
           </div>
-        `;
-        resultsContainer.insertAdjacentHTML("beforeend", card);
-      }
+        </div>
+      `;
+      resultsContainer.insertAdjacentHTML("beforeend", card);
     });
-
-    // Kembalikan posisi scroll
-    setTimeout(() => {
-      resultsContainer.scrollTop = scrollPosition; // Kembalikan posisi scroll setelah pembaruan
-    }, 0);
   }
 
   // Event listener untuk input ketikan
@@ -152,45 +138,38 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   }
 
-  // --- Logika untuk Infinite Scroll Dua Arah ---
-  function loadMoreItems(direction) {
+  // --- Logika untuk Infinite Scroll ke Bawah ---
+  function loadMoreItems() {
     if (isLoading) return;
     isLoading = true;
 
-    const scrollPosition = resultsContainer.scrollTop; // Simpan posisi scroll
+    const start = page * itemsPerPage;
+    const end = start + itemsPerPage;
+    const itemsToDisplay = currentData.slice(start, end);
 
-    if (direction === "down" && endIndex < currentData.length - 1) {
-      startIndex = endIndex + 1;
-      endIndex = Math.min(startIndex + itemsPerPage - 1, currentData.length - 1);
+    if (itemsToDisplay.length > 0) {
       displayResults(currentData);
-    } else if (direction === "up" && startIndex > 0) {
-      endIndex = startIndex - 1;
-      startIndex = Math.max(endIndex - (itemsPerPage - 1), 0);
-      displayResults(currentData);
+      page++;
+    } else {
+      window.removeEventListener("scroll", handleScroll);
     }
 
-    setTimeout(() => {
-      resultsContainer.scrollTop = scrollPosition; // Kembalikan posisi scroll
-    }, 0);
     isLoading = false;
   }
 
   function handleScroll() {
-    const scrollTop = window.scrollY || document.documentElement.scrollTop;
-    const scrollHeight = document.documentElement.scrollHeight;
-    const clientHeight = document.documentElement.clientHeight;
-
-    if (scrollTop + clientHeight >= scrollHeight - 200 && !isLoading && endIndex < currentData.length - 1) {
-      loadMoreItems("down");
-    } else if (scrollTop <= 200 && !isLoading && startIndex > 0) {
-      loadMoreItems("up");
+    if (
+      window.innerHeight + window.scrollY >= document.documentElement.scrollHeight - 200 &&
+      !isLoading &&
+      page * itemsPerPage < currentData.length
+    ) {
+      loadMoreItems();
     }
   }
 
   function resetToInitialView() {
     resultsContainer.innerHTML = "";
-    startIndex = 0;
-    endIndex = itemsPerPage - 1;
+    page = 1;
     currentData = dictionary;
     displayResults(currentData);
     window.addEventListener("scroll", handleScroll);
