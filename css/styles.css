@@ -7,7 +7,7 @@ body {
 
 /* Body untuk Halaman Sampul */
 .cover-body {
-  background-image: url("../img/background.jpg");
+  background-image: url("../img/background.webp");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -32,14 +32,14 @@ body {
 
 /* Batik Desain */
 .batik-top, .batik-bottom {
-  background: url("../img/batik-pattern.png") repeat-x;
+  background: url("../img/batik-pattern.webp") repeat-x;
   height: 100px;
   width: 100%;
 }
 
 /* Batik Desain */
 .batik-top {
-  background: url("../img/batik-pattern.png") repeat-x;
+  background: url("../img/batik-pattern.webp") repeat-x;
   height: 150px; /* Tinggi disesuaikan, ubah sesuai ukuran asli gambar */
   width: 100%;
   background-size: auto; /* Menjaga proporsi asli gambar */
