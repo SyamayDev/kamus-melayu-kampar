@@ -353,6 +353,61 @@ body {
   display: block; /* Pastikan SVG tetap muncul jika digunakan */
 }
 
+/* Pastikan aturan untuk tombol refresh ada dan spesifik */
+.search .input-bar button#refreshBtn {
+  background: transparent;
+  border: 0;
+  border-radius: 50%;
+  color: rgb(13,110,253) !important; /* Pastikan warna biru diterapkan */
+  font-size: 1.25rem;
+  margin: 0;
+  outline: none;
+  width: 3rem;
+  min-width: 3rem;
+  height: 3rem;
+  transition: background-color, color;
+  transition-duration: 0.25s;
+  box-shadow: 0 0 2rem transparent;
+  margin-right: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Pastikan ikon berada di tengah */
+}
+
+.search .input-bar button#refreshBtn i,
+.search .input-bar button#refreshBtn .bi-arrow-clockwise { /* Target ikon secara eksplisit */
+  color: #007bff !important; /* Pastikan ikon berwarna biru */
+}
+
+.search .input-bar button#refreshBtn:hover {
+  background: #eee;
+}
+
+.search .input-bar button#refreshBtn:hover i,
+.search .input-bar button#refreshBtn:hover .bi-arrow-clockwise {
+  color: #007bff; /* Tetap biru saat hover, ubah jika ingin kontras */
+}
+
+.search .input-bar button#refreshBtn:focus {
+  background: #444;
+  color: #fff !important;
+}
+
+.search .input-bar button#refreshBtn:focus i,
+.search .input-bar button#refreshBtn:focus .bi-arrow-clockwise {
+  color: #fff !important; /* Ubah ke putih saat fokus */
+}
+
+.search .input-bar button#refreshBtn:active {
+  background: #000;
+  color: #fff !important;
+}
+
+.search .input-bar button#refreshBtn:active i,
+.search .input-bar button#refreshBtn:active .bi-arrow-clockwise {
+  color: #fff !important; /* Ubah ke putih saat aktif */
+}
+
 /* Animasi Pulsasi */
 @keyframes pulse {
   0% {

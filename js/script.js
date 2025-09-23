@@ -11,6 +11,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const resultsContainer = document.getElementById("results");
   const searchLabel = document.getElementById("search-label");
   const voiceSearchBtn = document.getElementById("voiceSearchBtn");
+  const refreshBtn = document.getElementById("refreshBtn"); // Tambahkan elemen refresh
   const searchContainer = document.querySelector(".search-container");
   const mainNavbar = document.querySelector(".navbar");
 
@@ -174,6 +175,11 @@ document.addEventListener("DOMContentLoaded", function () {
     displayResults(currentData);
     window.addEventListener("scroll", handleScroll);
   }
+
+  // --- Logika untuk Tombol Refresh ---
+  refreshBtn.addEventListener("click", () => {
+    location.reload(); // Segarkan halaman saat tombol diklik
+  });
 
   // Muat data kamus dari JSON
   fetch("data.json")
