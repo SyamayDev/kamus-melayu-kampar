@@ -49,10 +49,15 @@ document.addEventListener("DOMContentLoaded", function () {
       const card = `
         <div class="col-12 col-md-6 col-lg-4">
           <div class="card">
-            <div class="card-body">
-              <h5 class="card-title">${item.indonesian}</h5>
-              <p class="card-text"><strong>Melayu:</strong> ${item.melayu_kampar}</p>
-              <p class="card-text"><strong>Inggris:</strong> ${item.english}</p>
+            <div class="card-body d-flex align-items-center">
+              <div>
+                <h5 class="card-title">${item.indonesian}</h5>
+                <p class="card-text"><strong>Melayu:</strong> ${item.melayu_kampar}</p>
+                <p class="card-text"><strong>Inggris:</strong> ${item.english}</p>
+              </div>
+              <button class="speaker-btn" onclick="playAudio('${item.audio}', this)">
+                <i class="bi bi-volume-up-fill"></i>
+              </button>
             </div>
           </div>
         </div>
@@ -60,6 +65,23 @@ document.addEventListener("DOMContentLoaded", function () {
       resultsContainer.insertAdjacentHTML("beforeend", card);
     });
   }
+
+  // Fungsi untuk memutar audio
+  window.playAudio = function(audioFile, button) {
+    const audioPath = `audio/${audioFile}`;
+    const audio = new Audio(audioPath);
+    button.classList.add("playing"); // Tambahkan kelas playing saat audio dimulai
+    audio.play().catch(error => {
+      console.error('Error memutar audio:', error);
+      alert('Gagal memutar audio. Pastikan file audio tersedia di ' + audioPath);
+    });
+    audio.onended = () => {
+      button.classList.remove("playing"); // Hapus kelas playing saat audio selesai
+    };
+    audio.onerror = () => {
+      button.classList.remove("playing"); // Hapus kelas playing jika error
+    };
+  };
 
   // Event listener untuk input ketikan
   searchInput.addEventListener("input", () => {

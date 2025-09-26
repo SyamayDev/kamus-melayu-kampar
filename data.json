@@ -1,39 +1,45 @@
 [
-  {
+  { 
     "no": 1,
     "indonesian": "Kakek",
     "melayu_kampar": "Datuok",
-    "english": "Grandfather"
+    "english": "Grandfather",
+    "audio": "datuok.mp3"
   },
   {
     "no": 2,
     "indonesian": "Nenek",
     "melayu_kampar": "Niniok",
-    "english": "Grandmother"
+    "english": "Grandmother",
+    "audio": "niniok.mp3"
   },
   {
     "no": 3,
     "indonesian": "Ayah",
     "melayu_kampar": "Ayah",
-    "english": "Father"
+    "english": "Father",
+    "audio": "ayah.mp3"
   },
   {
     "no": 4,
     "indonesian": "Ibu",
     "melayu_kampar": "Amak",
-    "english": "Mother"
+    "english": "Mother",
+    "audio": "amak.mp3"
   },
   {
     "no": 5,
     "indonesian": "Paman paling tua",
     "melayu_kampar": "Apak godang",
-    "english": "Oldest uncle"
+    "english": "Oldest uncle",
+    "audio": "apak_godang.mp3"
   },
   {
     "no": 6,
     "indonesian": "Paman paling muda",
     "melayu_kampar": "Mamak",
-    "english": "Uncle is the easiest"
+    "english": "Uncle is the easiest",
+    "audio": "mamak.mp3"
   },
   {
     "no": 7,

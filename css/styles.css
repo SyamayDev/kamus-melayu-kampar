@@ -90,14 +90,6 @@ body {
   margin-bottom: 10px;
 }
 
-.cover-subtitle {
-  font-size: 1rem;
-  font-weight: 400;
-  color: #FFA500;
-  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
-  margin-bottom: 20px;
-}
-
 .cta {
   display: inline-flex;
   padding: 10px 30px;
@@ -272,17 +264,13 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
-.search .input-bar input::-ms-clear,
-.search .input-bar input::ms-reveal {
+.search .input-bar input::-ms-clear, .search .input-bar input::ms-reveal {
   display: none;
   width: 0;
   height: 0;
 }
 
-.search .input-bar input::-webkit-search-decoration,
-.search .input-bar input::-webkit-search-cancel-button,
-.search .input-bar input::-webkit-search-results-button,
-.search .input-bar input::-webkit-search-results-decoration {
+.search .input-bar input::-webkit-search-decoration, .search .input-bar input::-webkit-search-cancel-button, .search .input-bar input::-webkit-search-results-button, .search .input-bar input::-webkit-search-results-decoration {
   display: none;
   width: 0;
   height: 0;
@@ -314,8 +302,7 @@ body {
   color: #fff;
 }
 
-.search .input-bar button:active,
-.search .input-bar button.active {
+.search .input-bar button:active, .search .input-bar button.active {
   background: #000;
   color: #fff;
 }
@@ -333,6 +320,7 @@ body {
   min-width: 3rem;
   height: 3rem;
 }
+
 .voice-popup {
   position: fixed;
   top: 50%;
@@ -393,8 +381,7 @@ body {
   justify-content: center; /* Pastikan ikon berada di tengah */
 }
 
-.search .input-bar button#refreshBtn i,
-.search .input-bar button#refreshBtn .bi-arrow-clockwise { /* Target ikon secara eksplisit */
+.search .input-bar button#refreshBtn i, .search .input-bar button#refreshBtn .bi-arrow-clockwise { /* Target ikon secara eksplisit */
   color: #007bff !important; /* Pastikan ikon berwarna biru */
 }
 
@@ -402,8 +389,7 @@ body {
   background: #eee;
 }
 
-.search .input-bar button#refreshBtn:hover i,
-.search .input-bar button#refreshBtn:hover .bi-arrow-clockwise {
+.search .input-bar button#refreshBtn:hover i, .search .input-bar button#refreshBtn:hover .bi-arrow-clockwise {
   color: #007bff; /* Tetap biru saat hover, ubah jika ingin kontras */
 }
 
@@ -412,8 +398,7 @@ body {
   color: #fff !important;
 }
 
-.search .input-bar button#refreshBtn:focus i,
-.search .input-bar button#refreshBtn:focus .bi-arrow-clockwise {
+.search .input-bar button#refreshBtn:focus i, .search .input-bar button#refreshBtn:focus .bi-arrow-clockwise {
   color: #fff !important; /* Ubah ke putih saat fokus */
 }
 
@@ -422,8 +407,7 @@ body {
   color: #fff !important;
 }
 
-.search .input-bar button#refreshBtn:active i,
-.search .input-bar button#refreshBtn:active .bi-arrow-clockwise {
+.search .input-bar button#refreshBtn:active i, .search .input-bar button#refreshBtn:active .bi-arrow-clockwise {
   color: #fff !important; /* Ubah ke putih saat aktif */
 }
 
@@ -533,16 +517,14 @@ body.fade-in {
 /* Responsif Mobile */
 @media (max-width: 768px) {
   .cover-title {
-    font-size: 1.5rem;
-  }
-
-  .cover-subtitle {
-    font-size: 0.9rem;
+    font-size: 1.8rem;
+    margin-top: -100px;
   }
 
   .cta {
-    font-size: 1rem;
+    font-size: 1.2rem;
     padding: 8px 20px;
+    margin-top: 40px;
   }
 
   .icon-row {
@@ -553,8 +535,42 @@ body.fade-in {
     width: 40px;
     height: 40px;
   }
+ .batik-top, .batik-bottom {
+   height: 60px; /* Sesuaikan dengan kebutuhan mobile */
+ }
+}
 
-.batik-top, .batik-bottom {
-    height: 60px; /* Sesuaikan dengan kebutuhan mobile */
-  }
+/* Style untuk tombol speaker */
+.speaker-btn {
+  font-size: 2rem; /* Ukuran cukup besar */
+  background-color: transparent;
+  border: none;
+  color: #007bff; /* Warna biru untuk ikon */
+  cursor: pointer;
+  transition: color 0.3s, transform 0.3s;
+  padding: 2rem;
+  border-radius: 50%; /* Box bulat */
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto; /* Paling kanan */
+  margin-top: auto;
+  margin-bottom: auto; /* Tengah secara vertikal */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.speaker-btn:hover {
+  color: #0056b3; /* Warna lebih gelap saat hover */
+  transform: scale(1.1); /* Efek zoom saat hover */
+}
+
+.speaker-btn:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.25rem rgba(0, 123, 255, 0.25); /* Fokus ring */
+}
+
+.speaker-btn.playing {
+  animation: pulse 1.5s infinite; /* Animasi pulsasi saat audio diputar */
 }
