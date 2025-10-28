@@ -240,20 +240,14 @@ document.addEventListener("DOMContentLoaded", function () {
     location.reload(); // Segarkan halaman saat tombol diklik
   });
 
-  // Muat data kamus dari JSON
-  fetch("data.json")
-    .then((response) => {
-      if (!response.ok) throw new Error("Gagal memuat data.json");
-      return response.json();
-    })
-    .then((data) => {
-      dictionary = data;
-      resetToInitialView();
-    })
-    .catch((error) => {
-      console.error("Error:", error);
-      resultsContainer.innerHTML = `<p class="text-center text-danger col-12 mt-4">Tidak dapat memuat data kamus.</p>`;
-    });
+  // Muat data kamus dari variabel global
+  if (window.kamusData) {
+    dictionary = window.kamusData;
+    resetToInitialView();
+  } else {
+    console.error("Error: kamusData not found.");
+    resultsContainer.innerHTML = `<p class="text-center text-danger col-12 mt-4">Tidak dapat memuat data kamus.</p>`;
+  }
 
   window.addEventListener("scroll", handleScroll);
 });
