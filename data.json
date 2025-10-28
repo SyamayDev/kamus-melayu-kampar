@@ -339,9 +339,7 @@
     "no": 50,
     "indonesian": "Dinding",
     "melayu_kampar": "Dinding rumah",
-    "english": "House wall",
-    // belum ada audio
-    "audio": "dinding_rumah.mp3"
+    "english": "House wall"
   },
   {
     "no": 51,
@@ -452,9 +450,7 @@
     "no": 66,
     "indonesian": "Cobek",
     "melayu_kampar": "Lagan",
-    "english": "Cobek",
-    // belum ada audio
-    "audio": "lagan.mp3"
+    "english": "Cobek"
   },
   {
     "no": 67,
