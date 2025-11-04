@@ -52,12 +52,22 @@ document.addEventListener("DOMContentLoaded", function () {
             <div class="card-body d-flex align-items-center">
               <div>
                 <h5 class="card-title">${item.indonesian}</h5>
-                <p class="card-text"><strong>Melayu:</strong> ${item.melayu_kampar}</p>
-                <p class="card-text"><strong>Inggris:</strong> ${item.english}</p>
+                <p class="card-text"><strong>Melayu:</strong> ${
+                  item.melayu_kampar
+                }</p>
+                <p class="card-text"><strong>Inggris:</strong> ${
+                  item.english
+                }</p>
               </div>
-              <button class="speaker-btn" onclick="playAudio('${item.audio}', this)">
-                <i class="bi bi-volume-up-fill"></i>
-              </button>
+              ${
+                item.audio
+                  ? `
+                <button class="speaker-btn" onclick="playAudio('${item.audio}', this)">
+                  <i class="bi bi-volume-up-fill"></i>
+                </button>
+              `
+                  : ""
+              }
             </div>
           </div>
         </div>
@@ -67,13 +77,15 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
   // Fungsi untuk memutar audio
-  window.playAudio = function(audioFile, button) {
+  window.playAudio = function (audioFile, button) {
     const audioPath = `audio/${audioFile}`;
     const audio = new Audio(audioPath);
     button.classList.add("playing"); // Tambahkan kelas playing saat audio dimulai
-    audio.play().catch(error => {
-      console.error('Error memutar audio:', error);
-      alert('Gagal memutar audio. Pastikan file audio tersedia di ' + audioPath);
+    audio.play().catch((error) => {
+      console.error("Error memutar audio:", error);
+      alert(
+        "Gagal memutar audio. Pastikan file audio tersedia di " + audioPath
+      );
     });
     audio.onended = () => {
       button.classList.remove("playing"); // Hapus kelas playing saat audio selesai
@@ -94,7 +106,8 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 
   // --- Logika untuk Pencarian Suara ---
-  const SpeechRecognition = window.webkitSpeechRecognition || window.SpeechRecognition;
+  const SpeechRecognition =
+    window.webkitSpeechRecognition || window.SpeechRecognition;
 
   if (SpeechRecognition) {
     voiceSearchBtn.classList.add("show");
@@ -103,13 +116,13 @@ document.addEventListener("DOMContentLoaded", function () {
 
     voiceSearchBtn.addEventListener("click", () => {
       if (!listening) {
-        if (!('webkitSpeechRecognition' in window)) {
-          alert('Browser Anda tidak mendukung fitur pencarian suara.');
+        if (!("webkitSpeechRecognition" in window)) {
+          alert("Browser Anda tidak mendukung fitur pencarian suara.");
           return;
         }
 
         const recognition = new SpeechRecognition();
-        recognition.lang = 'id-ID';
+        recognition.lang = "id-ID";
         recognition.continuous = false;
         recognition.interimResults = true;
 
@@ -121,32 +134,34 @@ document.addEventListener("DOMContentLoaded", function () {
         document.body.appendChild(voicePopup);
 
         // Hapus modal backdrop jika ada
-        document.body.classList.remove('modal-open');
-        if (document.querySelector('.modal-backdrop')) {
-          document.querySelector('.modal-backdrop').remove();
+        document.body.classList.remove("modal-open");
+        if (document.querySelector(".modal-backdrop")) {
+          document.querySelector(".modal-backdrop").remove();
         }
 
         recognition.onresult = (event) => {
           const interimTranscript = Array.from(event.results)
-            .map(result => result[0].transcript)
-            .join('');
-          voicePopup.innerHTML = `<p>${interimTranscript || 'Mendengarkan...'}</p>`;
+            .map((result) => result[0].transcript)
+            .join("");
+          voicePopup.innerHTML = `<p>${
+            interimTranscript || "Mendengarkan..."
+          }</p>`;
           if (event.results[0].isFinal) {
             searchInput.value = event.results[0][0].transcript;
             searchInput.dispatchEvent(new Event("input", { bubbles: true }));
             setTimeout(() => {
               voicePopup.remove();
-              document.body.classList.remove('modal-open');
+              document.body.classList.remove("modal-open");
             }, 1000);
           }
         };
 
         recognition.onend = () => {
-          if (voicePopup.innerHTML.includes('Mendengarkan...')) {
+          if (voicePopup.innerHTML.includes("Mendengarkan...")) {
             voicePopup.innerHTML = "<p>Tidak ada suara terdeteksi</p>";
             setTimeout(() => {
               voicePopup.remove();
-              document.body.classList.remove('modal-open');
+              document.body.classList.remove("modal-open");
             }, 1000);
           }
         };
@@ -155,22 +170,26 @@ document.addEventListener("DOMContentLoaded", function () {
           voicePopup.innerHTML = `<p>Error: ${event.error}</p>`;
           setTimeout(() => {
             voicePopup.remove();
-            document.body.classList.remove('modal-open');
+            document.body.classList.remove("modal-open");
           }, 1000);
-          console.error('Voice recognition error:', event.error);
+          console.error("Voice recognition error:", event.error);
         };
 
         recognition.start();
         listening = true;
 
         // Hentikan recognition saat tombol diklik lagi atau waktu habis
-        voiceSearchBtn.addEventListener("click", () => {
-          if (listening) {
-            recognition.stop();
-            listening = false;
-            if (voicePopup) voicePopup.remove();
-          }
-        }, { once: true });
+        voiceSearchBtn.addEventListener(
+          "click",
+          () => {
+            if (listening) {
+              recognition.stop();
+              listening = false;
+              if (voicePopup) voicePopup.remove();
+            }
+          },
+          { once: true }
+        );
       }
     });
   }
@@ -219,7 +238,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
   function handleScroll() {
     if (
-      window.innerHeight + window.scrollY >= document.documentElement.scrollHeight - 200 &&
+      window.innerHeight + window.scrollY >=
+        document.documentElement.scrollHeight - 200 &&
       !isLoading &&
       page * itemsPerPage < currentData.length
     ) {
