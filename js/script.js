@@ -73,6 +73,10 @@ document.addEventListener("DOMContentLoaded", function () {
         </div>
       `;
       resultsContainer.insertAdjacentHTML("beforeend", card);
+      // jumlah item tanpa audio ditampilakn di console
+      if (!item.audio) {
+        console.log("Item tanpa audio:", item);
+      }
     });
   }
 

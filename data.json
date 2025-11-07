@@ -339,7 +339,8 @@
     "no": 50,
     "indonesian": "Dinding",
     "melayu_kampar": "Dinding rumah",
-    "english": "House wall"
+    "english": "House wall",
+    "audio": "dinding_rumah.mp3"
   },
   {
     "no": 51,
@@ -450,7 +451,8 @@
     "no": 66,
     "indonesian": "Cobek",
     "melayu_kampar": "Lagan",
-    "english": "Cobek"
+    "english": "Cobek",
+    "audio": "lagan.mp3"
   },
   {
     "no": 67,
@@ -569,14 +571,14 @@
     "indonesian": "Tudung saji",
     "melayu_kampar": "Tuduong",
     "english": "Side dish cutter",
-    "audio" : "tuduong.mp3"
+    "audio": "tuduong.mp3"
   },
   {
     "no": 84,
     "indonesian": "Penyaring santan",
     "melayu_kampar": "Tapi",
     "english": "Coconut milk filter",
-    "audio" : "tapi.mp3"
+    "audio": "tapi.mp3"
   },
   {
     "no": 85,
@@ -995,14 +997,15 @@
     "no": 144,
     "indonesian": "Katak",
     "melayu_kampar": "Kangkuong",
-    "english": "Frog"
+    "english": "Frog",
+    "audio": "kangkuong.mp3"
   },
   {
     "no": 145,
     "indonesian": "Lalat",
     "melayu_kampar": "Langau",
     "english": "Fly",
-    "audio": "langau2.mp3"  
+    "audio": "langau2.mp3"
   },
   {
     "no": 146,
@@ -1065,7 +1068,7 @@
     "indonesian": "Ikan gabus",
     "melayu_kampar": "Bocek",
     "english": "Snakehead fish",
-    "audio": "bocek.mp3" 
+    "audio": "bocek.mp3"
   },
   {
     "no": 155,
@@ -1245,7 +1248,7 @@
   {
     "no": 180,
     "indonesian": "Kue bakar",
-    "melayu_kampar": "Kuɛ panggang",
+    "melayu_kampar": "Kue panggang",
     "english": "Baked Cookies",
     "audio": "kue_panggang.mp3"
   },
@@ -1413,7 +1416,7 @@
   {
     "no": 204,
     "indonesian": "Ketarak",
-    "melayu_kampar": "Kətarak",
+    "melayu_kampar": "Katarak",
     "english": "Ketarak",
     "audio": "kətarak.mp3"
   },
@@ -1603,1369 +1606,1507 @@
     "no": 232,
     "indonesian": "Kikir",
     "melayu_kampar": "Koyong",
-    "english": "Stingy"
+    "english": "Stingy",
+    "audio": "koyong.mp3"
   },
   {
     "no": 233,
     "indonesian": "Bagus",
     "melayu_kampar": "Elok",
-    "english": "Good"
+    "english": "Good",
+    "audio": "elok.mp3"
   },
   {
     "no": 234,
     "indonesian": "Basah",
     "melayu_kampar": "Basa",
-    "english": "Wet"
+    "english": "Wet",
+    "audio": "basa.mp3"
   },
   {
     "no": 235,
     "indonesian": "Bolong",
     "melayu_kampar": "Balubang",
-    "english": "Mesh"
+    "english": "Mesh",
+    "audio": "balubang.mp3"
   },
   {
     "no": 236,
     "indonesian": "Penakut",
     "melayu_kampar": "Panakuik",
-    "english": "Coward"
+    "english": "Coward",
+    "audio": "panakuik.mp3"
   },
   {
     "no": 237,
     "indonesian": "Rajin",
     "melayu_kampar": "Rajin",
-    "english": "Diligent"
+    "english": "Diligent",
+    "audio": "rajin.mp3"
   },
   {
     "no": 238,
     "indonesian": "Pemarah",
     "melayu_kampar": "Pambongi",
-    "english": "Grumpy"
+    "english": "Grumpy",
+    "audio": "pambongi.mp3"
   },
   {
     "no": 239,
     "indonesian": "Tidur",
     "melayu_kampar": "Lolok",
-    "english": "Fussy"
+    "english": "Fussy",
+    "audio": "lolok.mp3"
   },
   {
     "no": 240,
     "indonesian": "Pemalas",
     "melayu_kampar": "Pamale",
-    "english": "Slacker"
+    "english": "Slacker",
+    "audio": "pamale.mp3"
   },
   {
     "no": 241,
     "indonesian": "Pahit",
     "melayu_kampar": "Payik",
-    "english": "Sour"
+    "english": "Sour",
+    "audio": "payik.mp3"
   },
   {
     "no": 242,
     "indonesian": "Busuk",
     "melayu_kampar": "Busuok",
-    "english": "Salty"
+    "english": "Salty",
+    "audio": "busuok.mp3"
   },
   {
     "no": 243,
     "indonesian": "Wangi",
     "melayu_kampar": "Owun",
-    "english": "Sweet"
+    "english": "Sweet",
+    "audio": "owun.mp3"
   },
   {
     "no": 244,
     "indonesian": "Maling",
     "melayu_kampar": "Pancilok",
-    "english": "Stupid"
+    "english": "Stupid",
+    "audio": "pancilok.mp3"
   },
   {
     "no": 245,
     "indonesian": "Sabar",
     "melayu_kampar": "Sobou",
-    "english": "Ignorance"
+    "english": "Ignorance",
+    "audio": "sobou.mp3"
   },
   {
     "no": 246,
     "indonesian": "Sawah",
     "melayu_kampar": "Ladang",
-    "english": "Ugly"
+    "english": "Ugly",
+    "audio": "ladang.mp3"
   },
   {
     "no": 247,
     "indonesian": "Kebun",
     "melayu_kampar": "Ladang",
-    "english": "Beautiful"
+    "english": "Beautiful",
+    "audio": "ladang.mp3"
   },
   {
     "no": 248,
     "indonesian": "Bohong",
     "melayu_kampar": "Duto",
-    "english": "Friendly"
+    "english": "Friendly",
+    "audio": "duto.mp3"
   },
   {
     "no": 249,
     "indonesian": "Nyinyir",
     "melayu_kampar": "Nyinye",
-    "english": "Fear"
+    "english": "Fear",
+    "audio": "nyinye.mp3"
   },
   {
     "no": 250,
     "indonesian": "Gemuk",
     "melayu_kampar": "Gopuok",
-    "english": "Greedy"
+    "english": "Greedy",
+    "audio": "gopuok.mp3"
   },
   {
     "no": 251,
     "indonesian": "Kurus",
     "melayu_kampar": "Kuwi",
-    "english": "Naughty"
+    "english": "Naughty",
+    "audio": "kuwi.mp3"
   },
   {
     "no": 252,
     "indonesian": "Laki-laki",
     "melayu_kampar": "Jantan",
-    "english": "Poor"
+    "english": "Poor",
+    "audio": "jantan.mp3"
   },
   {
     "no": 253,
     "indonesian": "Perempuan",
     "melayu_kampar": "Batino",
-    "english": "Fishy"
+    "english": "Fishy",
+    "audio": "batino.mp3"
   },
   {
     "no": 254,
     "indonesian": "Sepupu Laki-laki",
     "melayu_kampar": "Bako",
-    "english": "Stingy"
+    "english": "Stingy",
+    "audio": "bako.mp3"
   },
   {
     "no": 255,
     "indonesian": "Sepupu Perempuan",
     "melayu_kampar": "Baki",
-    "english": "Good"
+    "english": "Good",
+    "audio": "baki.mp3"
   },
   {
     "no": 256,
     "indonesian": "Mulut",
     "melayu_kampar": "Muncuong",
-    "english": "Wet"
+    "english": "Wet",
+    "audio": "muncuong.mp3"
   },
   {
     "no": 257,
     "indonesian": "Bibir",
     "melayu_kampar": "Bibiyu",
-    "english": "Mesh"
+    "english": "Mesh",
+    "audio": "bibiyu.mp3"
   },
   {
     "no": 258,
     "indonesian": "Biru",
     "melayu_kampar": "Biwu",
-    "english": "Blue"
+    "english": "Blue",
+    "audio": "biwu.mp3"
   },
   {
     "no": 259,
     "indonesian": "Merah",
     "melayu_kampar": "Sigha",
-    "english": "Red"
+    "english": "Red",
+    "audio": "sigha.mp3"
   },
   {
     "no": 260,
     "indonesian": "Kuning",
     "melayu_kampar": "Kuniong",
-    "english": "Yellow"
+    "english": "Yellow",
+    "audio": "kuniong.mp3"
   },
   {
     "no": 261,
     "indonesian": "Hijau",
     "melayu_kampar": "Ijau",
-    "english": "Green"
+    "english": "Green",
+    "audio": "ijau.mp3"
   },
   {
     "no": 262,
     "indonesian": "Merah Muda",
     "melayu_kampar": "Sigha jambu",
-    "english": "Pink"
+    "english": "Pink",
+    "audio": "sigha_jambu.mp3"
   },
   {
     "no": 263,
     "indonesian": "Dingin",
     "melayu_kampar": "Sojuok",
-    "english": "Cold"
+    "english": "Cold",
+    "audio": "sojuok.mp3"
   },
   {
     "no": 264,
     "indonesian": "Hangat",
     "melayu_kampar": "Angiek",
-    "english": "Warm"
+    "english": "Warm",
+    "audio": "angiek.mp3"
   },
   {
     "no": 265,
     "indonesian": "Hitam",
     "melayu_kampar": "Koliong",
-    "english": "Black"
+    "english": "Black",
+    "audio": "koliong.mp3"
   },
   {
     "no": 266,
     "indonesian": "Panas",
     "melayu_kampar": "Pane",
-    "english": "Hot"
+    "english": "Hot",
+    "audio": "pane.mp3"
   },
   {
     "no": 267,
     "indonesian": "Rimbun",
     "melayu_kampar": "Imbun",
-    "english": "Lush"
+    "english": "Lush",
+    "audio": "imbun.mp3"
   },
   {
     "no": 268,
     "indonesian": "Rumput",
     "melayu_kampar": "Umpuik",
-    "english": "Grass"
+    "english": "Grass",
+    "audio": "umpuik.mp3"
   },
   {
     "no": 269,
     "indonesian": "Lembut",
     "melayu_kampar": "Lombuik",
-    "english": "Soft"
+    "english": "Soft",
+    "audio": "lombuik.mp3"
   },
   {
     "no": 270,
     "indonesian": "Keras",
     "melayu_kampar": "Koyie",
-    "english": "Hard"
+    "english": "Hard",
+    "audio": "koyie.mp3"
   },
   {
     "no": 271,
     "indonesian": "Teduh",
     "melayu_kampar": "Toduo",
-    "english": "Calm"
+    "english": "Calm",
+    "audio": "toduo.mp3"
   },
   {
     "no": 272,
     "indonesian": "Sunyi",
     "melayu_kampar": "Longang",
-    "english": "Quiet"
+    "english": "Quiet",
+    "audio": "longang.mp3"
   },
   {
     "no": 273,
     "indonesian": "Gelap",
     "melayu_kampar": "Kolam",
-    "english": "Dark"
+    "english": "Dark",
+    "audio": "kolam.mp3"
   },
   {
     "no": 274,
     "indonesian": "Ramai",
     "melayu_kampar": "Ami",
-    "english": "Crowded"
+    "english": "Crowded",
+    "audio": "ami.mp3"
   },
   {
     "no": 275,
     "indonesian": "Capek",
     "melayu_kampar": "Ponek",
-    "english": "Tired"
+    "english": "Tired",
+    "audio": "ponek.mp3"
   },
   {
     "no": 276,
     "indonesian": "Air",
     "melayu_kampar": "Ayie",
-    "english": "Water"
+    "english": "Water",
+    "audio": "ayie.mp3"
   },
   {
     "no": 277,
     "indonesian": "Masak Nasi",
     "melayu_kampar": "Batanak",
-    "english": "Cook Rice"
+    "english": "Cook Rice",
+    "audio": "batanak.mp3"
   },
   {
     "no": 278,
     "indonesian": "Arang",
     "melayu_kampar": "Aghang",
-    "english": "Charcoal"
+    "english": "Charcoal",
+    "audio": "aghang.mp3"
   },
   {
     "no": 279,
     "indonesian": "Asap",
     "melayu_kampar": "Asok",
-    "english": "Smoke"
+    "english": "Smoke",
+    "audio": "asok.mp3"
   },
   {
     "no": 280,
     "indonesian": "Langit",
     "melayu_kampar": "Langiek",
-    "english": "Cloud"
+    "english": "Cloud",
+    "audio": "langiek.mp3"
   },
   {
     "no": 281,
     "indonesian": "Matahari",
-    "melayu_kampar": "Mato ayi",
-    "english": "Sun"
+    "melayu_kampar": "Matoa ayi",
+    "english": "Sun",
+    "audio": "mato_ayi.mp3"
   },
   {
     "no": 282,
     "indonesian": "Bintang",
     "melayu_kampar": "Bintang",
-    "english": "Star"
+    "english": "Star",
+    "audio": "bintang.mp3"
   },
   {
     "no": 283,
     "indonesian": "Bulan",
     "melayu_kampar": "Bulan",
-    "english": "Moon"
+    "english": "Moon",
+    "audio": "bulan.mp3"
   },
   {
     "no": 284,
     "indonesian": "Bulan pernama",
-    "melayu_kampar": "Bulan Toghang",
-    "english": "Named moon"
+    "melayu_kampar": "Bulan toghang",
+    "english": "Named moon",
+    "audio": "bulan_toghang.mp3"
   },
   {
     "no": 285,
     "indonesian": "Bergadang",
     "melayu_kampar": "Batongghang",
-    "english": "Squirrelly"
+    "english": "Squirrelly",
+    "audio": "batongghang.mp3"
   },
   {
     "no": 286,
     "indonesian": "Gerhana bulan",
-    "melayu_kampar": "Gərhana bulan",
-    "english": "Lunar eclipse"
+    "melayu_kampar": "Gerhana bulan",
+    "english": "Lunar eclipse",
+    "audio": "gərhana_bulan.mp3"
   },
   {
     "no": 287,
     "indonesian": "Gerhana matahari",
-    "melayu_kampar": "Gərhana matahari",
-    "english": "Solar eclipse"
+    "melayu_kampar": "Gerhana matahari",
+    "english": "Solar eclipse",
+    "audio": "gərhana_matahari.mp3"
   },
   {
     "no": 288,
     "indonesian": "Gunung",
     "melayu_kampar": "Gunuong",
-    "english": "Mountain"
+    "english": "Mountain",
+    "audio": "gunuong.mp3"
   },
   {
     "no": 289,
     "indonesian": "Sungai",
     "melayu_kampar": "Kampau",
-    "english": "River"
+    "english": "River",
+    "audio": "kampau.mp3"
   },
   {
     "no": 290,
     "indonesian": "Laut",
     "melayu_kampar": "Lawik",
-    "english": "Sea"
+    "english": "Sea",
+    "audio": "lawik.mp3"
   },
   {
     "no": 291,
     "indonesian": "Halilintar/petir",
     "melayu_kampar": "Potui",
-    "english": "Lightning"
+    "english": "Lightning",
+    "audio": "potui.mp3"
   },
   {
     "no": 292,
     "indonesian": "Hujan",
     "melayu_kampar": "Ujan",
-    "english": "Rain"
+    "english": "Rain",
+    "audio": "ujan.mp3"
   },
   {
     "no": 293,
     "indonesian": "Gerimis",
-    "melayu_kampar": "Ujan itiok-itiok",
-    "english": "Drizzle"
+    "melayu_kampar": "Ujan itiok itiok",
+    "english": "Drizzle",
+    "audio": "ujan_itiok-itiok.mp3"
   },
   {
     "no": 294,
     "indonesian": "Angin",
     "melayu_kampar": "Angin",
-    "english": "Wind"
+    "english": "Wind",
+    "audio": "angin.mp3"
   },
   {
     "no": 295,
     "indonesian": "Pelangi",
     "melayu_kampar": "Pelangi",
-    "english": "Rainbow"
+    "english": "Rainbow",
+    "audio": "pelangi.mp3"
   },
   {
     "no": 296,
     "indonesian": "Pantai",
     "melayu_kampar": "Pantai",
-    "english": "Beach"
+    "english": "Beach",
+    "audio": "pantai.mp3"
   },
   {
     "no": 297,
     "indonesian": "Tanah",
     "melayu_kampar": "Tana",
-    "english": "Soil"
+    "english": "Soil",
+    "audio": "tana.mp3"
   },
   {
     "no": 298,
     "indonesian": "Hutan",
     "melayu_kampar": "Utan",
-    "english": "Forest"
+    "english": "Forest",
+    "audio": "utan.mp3"
   },
   {
     "no": 299,
     "indonesian": "Kabut",
     "melayu_kampar": "Kabuki",
-    "english": "Fog"
+    "english": "Fog",
+    "audio": "kabuki.mp3"
   },
   {
     "no": 300,
     "indonesian": "Kobun",
     "melayu_kampar": "Polak",
-    "english": "Paddy"
+    "english": "Paddy",
+    "audio": "polak.mp3"
   },
   {
     "no": 301,
     "indonesian": "Musim hujan",
     "melayu_kampar": "Pa ujan",
-    "english": "Rainy season"
+    "english": "Rainy season",
+    "audio": "pa_ujan.mp3"
   },
   {
     "no": 302,
     "indonesian": "Arus deras",
     "melayu_kampar": "Doyie",
-    "english": "Strong currents"
+    "english": "Strong currents",
+    "audio": "doyie.mp3"
   },
   {
     "no": 303,
     "indonesian": "Alis",
     "melayu_kampar": "Bulu tonggi",
-    "english": "Eyebrow"
+    "english": "Eyebrow",
+    "audio": "bulu_tonggi.mp3"
   },
   {
     "no": 304,
     "indonesian": "Bahu",
     "melayu_kampar": "Kuduok",
-    "english": "Shoulder"
+    "english": "Shoulder",
+    "audio": "kuduok.mp3"
   },
   {
     "no": 305,
     "indonesian": "Dahi",
     "melayu_kampar": "Koniong",
-    "english": "Forehead"
+    "english": "Forehead",
+    "audio": "koniong.mp3"
   },
   {
     "no": 306,
     "indonesian": "Betis",
     "melayu_kampar": "Boti",
-    "english": "Calf"
+    "english": "Calf",
+    "audio": "boti.mp3"
   },
   {
     "no": 307,
     "indonesian": "Tangan",
     "melayu_kampar": "Canggu",
-    "english": "Hand"
+    "english": "Hand",
+    "audio": "canggu.mp3"
   },
   {
     "no": 308,
     "indonesian": "Dagu",
     "melayu_kampar": "Dagu",
-    "english": "Chin"
+    "english": "Chin",
+    "audio": "dagu.mp3"
   },
   {
     "no": 309,
     "indonesian": "Jidat",
     "melayu_kampar": "Koniong",
-    "english": "Forehead"
+    "english": "Forehead",
+    "audio": "koniong.mp3"
   },
   {
     "no": 310,
     "indonesian": "Mata",
     "melayu_kampar": "Mato",
-    "english": "Eye"
+    "english": "Eye",
+    "audio": "mato.mp3"
   },
   {
     "no": 311,
     "indonesian": "Hidung",
     "melayu_kampar": "Iduong",
-    "english": "Nose"
+    "english": "Nose",
+    "audio": "iduong.mp3"
   },
   {
     "no": 312,
     "indonesian": "Telinga",
     "melayu_kampar": "Talingo",
-    "english": "Ear"
+    "english": "Ear",
+    "audio": "talingo.mp3"
   },
   {
     "no": 313,
     "indonesian": "Ibu jari",
     "melayu_kampar": "Induok gaja",
-    "english": "Thumb"
+    "english": "Thumb",
+    "audio": "induok_gaja.mp3"
   },
   {
     "no": 314,
     "indonesian": "Jari tengah",
     "melayu_kampar": "Jayi malang",
-    "english": "Middle finger"
+    "english": "Middle finger",
+    "audio": "jayi_malang.mp3"
   },
   {
     "no": 315,
     "indonesian": "Jari manis",
     "melayu_kampar": "Jayi mani",
-    "english": "Ring finger"
+    "english": "Ring finger",
+    "audio": "jayi_mani.mp3"
   },
   {
     "no": 316,
     "indonesian": "Telunjuk",
     "melayu_kampar": "Tunjuok",
-    "english": "Index Finger"
+    "english": "Index Finger",
+    "audio": "tunjuok.mp3"
   },
   {
     "no": 317,
     "indonesian": "Kelingking",
     "melayu_kampar": "Kalingkiang",
-    "english": "Little finger"
+    "english": "Little finger",
+    "audio": "kalingkiang.mp3"
   },
   {
     "no": 318,
     "indonesian": "Paha",
     "melayu_kampar": "Po",
-    "english": "Thigh"
+    "english": "Thigh",
+    "audio": "po.mp3"
   },
   {
     "no": 319,
     "indonesian": "Rambut",
     "melayu_kampar": "Ombuik",
-    "english": "Hair"
+    "english": "Hair",
+    "audio": "ombuik.mp3"
   },
   {
     "no": 320,
     "indonesian": "Tumit",
     "melayu_kampar": "Tumik",
-    "english": "Heel"
+    "english": "Heel",
+    "audio": "tumik.mp3"
   },
   {
     "no": 321,
     "indonesian": "Telapak kaki",
     "melayu_kampar": "Tapak kaki",
-    "english": "Foot"
+    "english": "Foot",
+    "audio": "tapak_kaki.mp3"
   },
   {
     "no": 322,
     "indonesian": "Kaki",
     "melayu_kampar": "Tungkai",
-    "english": "Foot"
+    "english": "Foot",
+    "audio": "tungkai.mp3"
   },
   {
     "no": 323,
     "indonesian": "Kumis",
     "melayu_kampar": "Kumis",
-    "english": "Mustache"
+    "english": "Mustache",
+    "audio": "kumis.mp3"
   },
   {
     "no": 324,
     "indonesian": "Jenggot",
     "melayu_kampar": "Jangguik",
-    "english": "Beard"
+    "english": "Beard",
+    "audio": "jangguik.mp3"
   },
   {
     "no": 325,
     "indonesian": "Pantat",
     "melayu_kampar": "Iku",
-    "english": "Buttocks"
+    "english": "Buttocks",
+    "audio": "iku.mp3"
   },
   {
     "no": 326,
     "indonesian": "Perut",
     "melayu_kampar": "Powik",
-    "english": "Stomach"
+    "english": "Stomach",
+    "audio": "powik.mp3"
   },
   {
     "no": 327,
     "indonesian": "Pesek",
     "melayu_kampar": "Pesek",
-    "english": "Pug"
+    "english": "Pug",
+    "audio": "pesek.mp3"
   },
   {
     "no": 328,
     "indonesian": "Mancung",
     "melayu_kampar": "Mancuong",
-    "english": "Pointed"
+    "english": "Pointed",
+    "audio": "mancuong.mp3"
   },
   {
     "no": 329,
     "indonesian": "Pinggang",
     "melayu_kampar": "Pinggang",
-    "english": "Waist"
+    "english": "Waist",
+    "audio": "pinggang.mp3"
   },
   {
     "no": 330,
     "indonesian": "Tenggorokan",
     "melayu_kampar": "Ungkungan",
-    "english": "Throat"
+    "english": "Throat",
+    "audio": "ungkungan.mp3"
   },
   {
     "no": 331,
     "indonesian": "Lutut",
     "melayu_kampar": "Lutuik",
-    "english": "Knee"
+    "english": "Knee",
+    "audio": "lutuik.mp3"
   },
   {
     "no": 332,
     "indonesian": "Punggung",
     "melayu_kampar": "Pungguong",
-    "english": "Back"
+    "english": "Back",
+    "audio": "pungguong.mp3"
   },
   {
     "no": 333,
     "indonesian": "Bangun",
     "melayu_kampar": "Jago",
-    "english": "Wake up"
+    "english": "Wake up",
+    "audio": "jago.mp3"
   },
   {
     "no": 334,
     "indonesian": "Bekerja",
     "melayu_kampar": "Bakojo",
-    "english": "Work"
+    "english": "Work",
+    "audio": "bakojo.mp3"
   },
   {
     "no": 335,
     "indonesian": "Tidur",
     "melayu_kampar": "Lolok",
-    "english": "Sleep"
+    "english": "Sleep",
+    "audio": "lolok.mp3"
   },
   {
     "no": 338,
     "indonesian": "Menjaga ternak",
     "melayu_kampar": "Manjago tonak",
-    "english": "Caring for livestock"
+    "english": "Caring for livestock",
+    "audio": "manjago_tonak.mp3"
   },
   {
     "no": 339,
     "indonesian": "Memupuk",
     "melayu_kampar": "Mamupuok",
-    "english": "Foster"
+    "english": "Foster",
+    "audio": "mamupuok.mp3"
   },
   {
     "no": 340,
     "indonesian": "Pupuk",
     "melayu_kampar": "Pupuok",
-    "english": "Fertilizer"
+    "english": "Fertilizer",
+    "audio": "pupuok.mp3"
   },
   {
     "no": 341,
     "indonesian": "Cerita",
     "melayu_kampar": "Cito",
-    "english": "Story"
+    "english": "Story",
+    "audio": "cito.mp3"
   },
   {
     "no": 342,
     "indonesian": "Berpantun",
     "melayu_kampar": "Basiacuong",
-    "english": "Reciting"
+    "english": "Reciting",
+    "audio": "basiacuong.mp3"
   },
   {
     "no": 343,
     "indonesian": "Duduk selonjor",
     "melayu_kampar": "Duduok maunju",
-    "english": "Sit on the couch"
+    "english": "Sit on the couch",
+    "audio": "duduok_maunju.mp3"
   },
   {
     "no": 344,
     "indonesian": "Gatal",
     "melayu_kampar": "Gate",
-    "english": "Itching"
+    "english": "Itching",
+    "audio": "gate.mp3"
   },
   {
     "no": 345,
     "indonesian": "Gigit",
     "melayu_kampar": "Gigik",
-    "english": "Bite"
+    "english": "Bite",
+    "audio": "gigik.mp3"
   },
   {
     "no": 346,
     "indonesian": "Hidup",
     "melayu_kampar": "Iduik",
-    "english": "Live"
+    "english": "Live",
+    "audio": "iduik.mp3"
   },
   {
     "no": 347,
     "indonesian": "Berjalan",
     "melayu_kampar": "Bajalan",
-    "english": "Walk"
+    "english": "Walk",
+    "audio": "bajalan.mp3"
   },
   {
     "no": 348,
     "indonesian": "Lompat",
     "melayu_kampar": "Lompek",
-    "english": "Jump"
+    "english": "Jump",
+    "audio": "lompek.mp3"
   },
   {
     "no": 349,
     "indonesian": "Injak",
     "melayu_kampar": "Pijak",
-    "english": "Step on"
+    "english": "Step on",
+    "audio": "pijak.mp3"
   },
   {
     "no": 350,
     "indonesian": "Jatuh",
     "melayu_kampar": "Jatuo",
-    "english": "Fall"
+    "english": "Fall",
+    "audio": "jatuo.mp3"
   },
   {
     "no": 351,
     "indonesian": "Jilat",
     "melayu_kampar": "Jilek",
-    "english": "Lick"
+    "english": "Lick",
+    "audio": "jilek.mp3"
   },
   {
     "no": 352,
     "indonesian": "Jongkok",
     "melayu_kampar": "Cangkuong",
-    "english": "Squat"
+    "english": "Squat",
+    "audio": "cangkuong.mp3"
   },
   {
     "no": 353,
     "indonesian": "Loncat",
     "melayu_kampar": "Loncek",
-    "english": "Leap"
+    "english": "Leap",
+    "audio": "loncek.mp3"
   },
   {
     "no": 354,
     "indonesian": "Makan",
     "melayu_kampar": "Sungka",
-    "english": "Eat"
+    "english": "Eat",
+    "audio": "sungka.mp3"
   },
   {
     "no": 355,
     "indonesian": "Nafas",
     "melayu_kampar": "Ongok",
-    "english": "Breath"
+    "english": "Breath",
+    "audio": "ongok.mp3"
   },
   {
     "no": 356,
     "indonesian": "Gigit",
     "melayu_kampar": "Gigik",
-    "english": "Bite"
+    "english": "Bite",
+    "audio": "gigik.mp3"
   },
   {
     "no": 357,
     "indonesian": "Telan",
     "melayu_kampar": "Lulu",
-    "english": "Consume"
+    "english": "Consume",
+    "audio": "lulu.mp3"
   },
   {
     "no": 358,
     "indonesian": "Besuk",
     "melayu_kampar": "Jonguok",
-    "english": "Visit"
+    "english": "Visit",
+    "audio": "jonguok.mp3"
   },
   {
     "no": 359,
     "indonesian": "Ambil",
     "melayu_kampar": "Ambiok",
-    "english": "Take"
+    "english": "Take",
+    "audio": "ambiok.mp3"
   },
   {
     "no": 360,
     "indonesian": "Enak",
     "melayu_kampar": "Lomak",
-    "english": "Delicious"
+    "english": "Delicious",
+    "audio": "lomak.mp3"
   },
   {
     "no": 361,
     "indonesian": "Ludah (air ludah)",
     "melayu_kampar": "Jiliwu",
-    "english": "Spit (saliva)"
+    "english": "Spit (saliva)",
+    "audio": "jiliwu.mp3"
   },
   {
     "no": 362,
     "indonesian": "Lendir",
     "melayu_kampar": "Londiyu",
-    "english": "Mucus"
+    "english": "Mucus",
+    "audio": "londiyu.mp3"
   },
   {
     "no": 363,
     "indonesian": "Genit",
     "melayu_kampar": "Cantiok",
-    "english": "Flirtatious"
+    "english": "Flirtatious",
+    "audio": "cantiok.mp3"
   },
   {
     "no": 364,
     "indonesian": "Darah",
     "melayu_kampar": "Dagha",
-    "english": "Blood"
+    "english": "Blood",
+    "audio": "dagha.mp3"
   },
   {
     "no": 365,
     "indonesian": "Ajak",
     "melayu_kampar": "Baok",
-    "english": "Invite"
+    "english": "Invite",
+    "audio": "baok.mp3"
   },
   {
     "no": 366,
     "indonesian": "Jinjing",
     "melayu_kampar": "Jinjiong",
-    "english": "Tote"
+    "english": "Tote",
+    "audio": "jinjiong.mp3"
   },
   {
     "no": 367,
     "indonesian": "Pikul",
     "melayu_kampar": "Pikuo",
-    "english": "Carry on shoulder"
+    "english": "Carry on shoulder",
+    "audio": "pikuo.mp3"
   },
   {
     "no": 368,
     "indonesian": "Pulang",
     "melayu_kampar": "Baliok",
-    "english": "Go home"
+    "english": "Go home",
+    "audio": "baliok.mp3"
   },
   {
     "no": 369,
     "indonesian": "Selesai",
     "melayu_kampar": "Salosai",
-    "english": "Finish"
+    "english": "Finish",
+    "audio": "salosai.mp3"
   },
   {
     "no": 370,
     "indonesian": "Telungkup",
     "melayu_kampar": "Talangkuik",
-    "english": "Face Down"
+    "english": "Face Down",
+    "audio": "talangkuik.mp3"
   },
   {
     "no": 371,
     "indonesian": "Tiduran",
     "melayu_kampar": "Guliong-Guliong",
-    "english": "Rolling Over"
+    "english": "Rolling Over",
+    "audio": "guliong-guliong.mp3"
   },
   {
     "no": 372,
     "indonesian": "Kelahi",
     "melayu_kampar": "Siantau",
     "english": "Fight",
-    "audio" : "siantau.mp3",
-    "audio2" : "siantau.mp3"
+    "audio": "siantau.mp3",
+    "audio2": "siantau.mp3"
   },
   {
     "no": 373,
     "indonesian": "Ribut",
     "melayu_kampar": "Mokak",
     "english": "Noisy",
-    "audio" : "mokak.mp3"
+    "audio": "mokak.mp3"
   },
   {
     "no": 374,
     "indonesian": "Diam",
     "melayu_kampar": "Ontok",
     "english": "Quiet",
-    "audio" : "ontok.mp3"
+    "audio": "ontok.mp3"
   },
   {
     "no": 375,
     "indonesian": "Lembut",
     "melayu_kampar": "Lombuik",
     "english": "Soft",
-    "audio" : "lombuik.mp3"
+    "audio": "lombuik.mp3"
   },
   {
     "no": 376,
     "indonesian": "Kasar",
     "melayu_kampar": "Kasau",
     "english": "Rough",
-    "audio" : "kasau.mp3"
+    "audio": "kasau.mp3"
   },
   {
     "no": 378,
     "indonesian": "Lihat",
     "melayu_kampar": "Tengok",
     "english": "See",
-    "audio" : "tengok.mp3" 
+    "audio": "tengok.mp3"
   },
   {
     "no": 379,
     "indonesian": "Meloncat",
     "melayu_kampar": "Maambu",
     "english": "Rebound",
-    "audio" : "maambu.mp3"
+    "audio": "maambu.mp3"
   },
   {
     "no": 380,
     "indonesian": "Menyisir",
     "melayu_kampar": "Basikek",
     "english": "Comb",
-    "audio" : "basikek.mp3",
-    "audio2" : "basikek.mp3"
+    "audio": "basikek.mp3",
+    "audio2": "basikek.mp3"
   },
   {
     "no": 381,
     "indonesian": "Menjalin",
     "melayu_kampar": "Lopio",
     "english": "Establish",
-    "audio" : "lopio.mp3"
+    "audio": "lopio.mp3"
   },
   {
     "no": 382,
     "indonesian": "Menjahit",
     "melayu_kampar": "Manjaik",
     "english": "Sew",
-    "audio" : "manjaik.mp3" 
+    "audio": "manjaik.mp3"
   },
   {
     "no": 383,
     "indonesian": "Belanja",
     "melayu_kampar": "Balanjo",
     "english": "Shopping",
-    "audio" : "balanjo.mp3"
+    "audio": "balanjo.mp3"
   },
   {
     "no": 384,
     "indonesian": "Mencium",
     "melayu_kampar": "Maidu",
     "english": "Smell",
-    "audio" : "maidu.mp3"
+    "audio": "maidu.mp3"
   },
   {
     "no": 385,
     "indonesian": "Gong",
     "melayu_kampar": "Oguon",
     "english": "Gong",
-    "audio" : "oguon.mp3"
+    "audio": "oguon.mp3"
   },
   {
     "no": 386,
     "indonesian": "Kecapi",
     "melayu_kampar": "Kecapi",
     "english": "Harp",
-    "audio" : "kecapi.mp3"
+    "audio": "kecapi.mp3"
   },
   {
     "no": 387,
     "indonesian": "Gendang",
     "melayu_kampar": "Calempong",
     "english": "Drum",
-    "audio" : "calempong.mp3"
+    "audio": "calempong.mp3"
   },
   {
     "no": 388,
     "indonesian": "Terompet bambu",
     "melayu_kampar": "Sunai buluo",
     "english": "Bamboo Trumpet",
-    "audio" : "sunai.mp3"
+    "audio": "sunai.mp3"
   },
   {
     "no": 389,
     "indonesian": "Beduk",
     "melayu_kampar": "Tonjong",
     "english": "Drum",
-    "audio" : "tonjong.mp3"
+    "audio": "tonjong.mp3"
   },
   {
     "no": 390,
     "indonesian": "Seruling",
     "melayu_kampar": "Sarine",
     "english": "Flute",
-    "audio" : "sarine.mp3"
+    "audio": "sarine.mp3"
   },
   {
     "no": 391,
     "indonesian": "Baju",
     "melayu_kampar": "Kain",
     "english": "Shirt",
-    "audio" : "kain.mp3"
+    "audio": "kain.mp3"
   },
   {
     "no": 392,
     "indonesian": "Celana",
     "melayu_kampar": "Silowu",
     "english": "Trousers",
-    "audio" : "silowu.mp3"
+    "audio": "silowu.mp3"
   },
   {
     "no": 393,
     "indonesian": "Cincin",
     "melayu_kampar": "Cincin",
     "english": "Ring",
-    "audio" : "cincin.mp3"
+    "audio": "cincin.mp3"
   },
   {
     "no": 394,
     "indonesian": "Gelang",
     "melayu_kampar": "Golang",
     "english": "Bracelet",
-    "audio" : "golang.mp3"
+    "audio": "golang.mp3"
   },
   {
     "no": 395,
     "indonesian": "Kebaya",
     "melayu_kampar": "Kebaya",
     "english": "Kebaya",
-    "audio" : "kebaya.mp3"
+    "audio": "kebaya.mp3"
   },
   {
     "no": 396,
     "indonesian": "Kopiah",
     "melayu_kampar": "Kupiah",
     "english": "Skullcap",
-    "audio" : "kupiah.mp3"
+    "audio": "kupiah.mp3"
   },
   {
     "no": 397,
     "indonesian": "Selendang",
     "melayu_kampar": "Sapalo",
     "english": "Shawl",
-    "audio" : "sapalo.mp3"
+    "audio": "sapalo.mp3"
   },
   {
     "no": 398,
     "indonesian": "Songket",
     "melayu_kampar": "Sungkik",
     "english": "Songket",
-    "audio" : "sungkik.mp3"
+    "audio": "sungkik.mp3"
   },
   {
     "no": 399,
     "indonesian": "Sarung untuk laki-laki",
     "melayu_kampar": "Kinsawuong",
     "english": "Sarong for men",
-    "audio" : "kinsawuong.mp3"
+    "audio": "kinsawuong.mp3"
   },
   {
     "no": 400,
     "indonesian": "Baju muslim",
     "melayu_kampar": "Baju kuwong",
     "english": "Muslim Clothes",
-    "audio" : "baju.mp3"
+    "audio": "baju.mp3"
   },
   {
     "no": 401,
     "indonesian": "Sarung untuk perempuan",
     "melayu_kampar": "Kainpinggang",
     "english": "Sarong for women",
-    "audio" : "kainpinggang.mp3"
+    "audio": "kainpinggang.mp3"
   },
   {
     "no": 402,
     "indonesian": "Baju koko",
     "melayu_kampar": "Taluok balango",
     "english": "Cocoa shirt",
-    "audio" : "taluok_balango.mp3"
+    "audio": "taluok_balango.mp3"
   },
   {
     "no": 403,
     "indonesian": "Tukang menggali kuburan",
     "melayu_kampar": "Tukang mənggali kubu",
     "english": "Gravediggers",
-    "audio" : "tukang_menggali_kuburan.mp3"
+    "audio": "tukang_menggali_kuburan.mp3"
   },
   {
     "no": 404,
     "indonesian": "Kuburan",
     "melayu_kampar": "Kubuan",
     "english": "Grave",
-    "audio" : "kubuan.mp3"
+    "audio": "kubuan.mp3"
   },
   {
     "no": 405,
     "indonesian": "Mesjid kecil",
     "melayu_kampar": "Suwou",
     "english": "Small mosque",
-    "audio" : "suwou.mp3"
+    "audio": "suwou.mp3"
   },
   {
     "no": 406,
     "indonesian": "Wirid",
     "melayu_kampar": "Mengaji",
     "english": "Recitation",
-    "audio" : "mengaji.mp3"
+    "audio": "mengaji.mp3"
   },
   {
     "no": 407,
     "indonesian": "Satu",
     "melayu_kampar": "Sociek",
     "english": "One",
-    "audio" : "sociek.mp3"
+    "audio": "sociek.mp3"
   },
   {
     "no": 408,
     "indonesian": "Dua",
     "melayu_kampar": "Duo",
     "english": "Two",
-    "audio" : "duo.mp3"
+    "audio": "duo.mp3"
   },
   {
     "no": 409,
     "indonesian": "Tiga",
     "melayu_kampar": "Tigo",
     "english": "Three",
-    "audio" : "tigo.mp3"
+    "audio": "tigo.mp3"
   },
   {
     "no": 410,
     "indonesian": "Empat",
     "melayu_kampar": "Ompek",
     "english": "Four",
-    "audio" : "ompek.mp3"
+    "audio": "ompek.mp3"
   },
   {
     "no": 411,
     "indonesian": "Lima",
     "melayu_kampar": "Limo",
     "english": "Five",
-    "audio" : "limo.mp3"
+    "audio": "limo.mp3"
   },
   {
     "no": 412,
     "indonesian": "Enam",
     "melayu_kampar": "Onam",
     "english": "Six",
-    "audio" : "onam.mp3"
+    "audio": "onam.mp3"
   },
   {
     "no": 413,
     "indonesian": "Tujuh",
     "melayu_kampar": "Tujuo",
     "english": "Seven",
-    "audio" : "tujuo.mp3"
+    "audio": "tujuo.mp3"
   },
   {
     "no": 414,
     "indonesian": "Delapan",
     "melayu_kampar": "Lapan",
     "english": "Eight",
-    "audio" : "lapan.mp3"
+    "audio": "lapan.mp3"
   },
   {
     "no": 415,
     "indonesian": "Sembilan",
     "melayu_kampar": "Samilan",
     "english": "Nine",
-    "audio" : "samilan.mp3"
+    "audio": "samilan.mp3"
   },
   {
     "no": 416,
     "indonesian": "Sepuluh",
     "melayu_kampar": "Sapuluo",
     "english": "Ten",
-    "audio" : "sapuluo.mp3"
+    "audio": "sapuluo.mp3"
   },
   {
     "no": 417,
     "indonesian": "Sebelas",
     "melayu_kampar": "Sabole",
     "english": "Eleven",
-    "audio" : "sabole.mp3"
+    "audio": "sabole.mp3"
   },
   {
     "no": 418,
     "indonesian": "Dua belas",
     "melayu_kampar": "Duo bole",
     "english": "Twelve",
-    "audio" : "duo_bole.mp3"
+    "audio": "duo_bole.mp3"
   },
   {
     "no": 419,
     "indonesian": "Tujuh belas",
     "melayu_kampar": "Tujuo bole",
     "english": "Seventeen",
-    "audio" : "tujuo_bole.mp3"
+    "audio": "tujuo_bole.mp3"
   },
   {
     "no": 420,
     "indonesian": "Enam belas",
     "melayu_kampar": "Onam bole",
     "english": "Sixteen",
-    "audio" : "onam_bole.mp3"
+    "audio": "onam_bole.mp3"
   },
   {
     "no": 421,
     "indonesian": "Dua puluh",
     "melayu_kampar": "Duo puluo",
     "english": "Twenty",
-    "audio" : "duo_puluo.mp3"
+    "audio": "duo_puluo.mp3"
   },
   {
     "no": 422,
     "indonesian": "Dua puluh satu",
     "melayu_kampar": "Duo puluo satu",
     "english": "Twenty-one",
-    "audio" : "duo_puluo_satu.mp3"
+    "audio": "duo_puluo_satu.mp3"
   },
   {
     "no": 423,
     "indonesian": "Seratus",
     "melayu_kampar": "Satui",
     "english": "One hundred",
-    "audio" : "satui.mp3"
+    "audio": "satui.mp3"
   },
   {
     "no": 425,
     "indonesian": "Seribu",
     "melayu_kampar": "Saibu",
     "english": "One thousand",
-    "audio" : "saibu.mp3"
+    "audio": "saibu.mp3"
   },
   {
     "no": 426,
     "indonesian": "Sepuluh ribu",
     "melayu_kampar": "Sapulu ibu",
     "english": "Ten thousand",
-    "audio" : "sapulu_ibu.mp3"
+    "audio": "sapulu_ibu.mp3"
   },
   {
     "no": 427,
     "indonesian": "Tiga puluh",
     "melayu_kampar": "Tigo puluo",
     "english": "Thirty",
-    "audio" : "tigo_puluo.mp3"
+    "audio": "tigo_puluo.mp3"
   },
   {
     "no": 428,
     "indonesian": "Sekarang",
     "melayu_kampar": "Ayi ko",
     "english": "Now",
-    "audio" : "ayi_ko.mp3"
+    "audio": "ayi_ko.mp3"
   },
   {
     "no": 429,
     "indonesian": "Besok",
     "melayu_kampar": "Isuok",
     "english": "Tomorrow",
-    "audio" : "isuok.mp3"
+    "audio": "isuok.mp3"
   },
   {
     "no": 430,
     "indonesian": "Besok lusa",
     "melayu_kampar": "Isuok pagi",
     "english": "Tomorrow is the day after tomorrow",
-    "audio" : "isuok_pagi.mp3"
+    "audio": "isuok_pagi.mp3"
   },
   {
     "no": 431,
     "indonesian": "Saya",
     "melayu_kampar": "Deyen",
     "english": "I",
-    "audio" : "deyen.mp3"
+    "audio": "deyen.mp3"
   },
   {
     "no": 432,
     "indonesian": "Kami",
     "melayu_kampar": "Kami",
     "english": "We",
-    "audio" : "kami.mp3"
+    "audio": "kami.mp3"
   },
   {
     "no": 433,
     "indonesian": "Mereka",
     "melayu_kampar": "Koliyen",
     "english": "They",
-    "audio" : "koliyen.mp3"
+    "audio": "koliyen.mp3"
   },
   {
     "no": 434,
     "indonesian": "Di sana",
     "melayu_kampar": "Disiten",
     "english": "There",
-    "audio" : "disiten.mp3"
+    "audio": "disiten.mp3"
   },
   {
     "no": 435,
     "indonesian": "Di sini",
     "melayu_kampar": "Disiko",
     "english": "Here",
-    "audio" : "disiko.mp3"
+    "audio": "disiko.mp3"
   },
   {
     "no": 436,
     "indonesian": "Ke sana",
     "melayu_kampar": "Kokien",
     "english": "There",
-    "audio" : "kokien.mp3"
+    "audio": "kokien.mp3"
   },
   {
     "no": 437,
     "indonesian": "Ke sini",
     "melayu_kampar": "Kasiko",
     "english": "Go here",
-    "audio" : "kasiko.mp3"
+    "audio": "kasiko.mp3"
   },
   {
     "no": 438,
     "indonesian": "Di atas",
     "melayu_kampar": "Diate",
     "english": "Above",
-    "audio" : "diate.mp3"
+    "audio": "diate.mp3"
   },
   {
     "no": 439,
     "indonesian": "Di bawah",
     "melayu_kampar": "Dibawa",
     "english": "Under",
-    "audio" : "dibawa.mp3"
+    "audio": "dibawa.mp3"
   },
   {
     "no": 440,
     "indonesian": "Hari ini",
     "melayu_kampar": "Sayiko",
     "english": "Today",
-    "audio" : "sayiko.mp3"
+    "audio": "sayiko.mp3"
   },
   {
     "no": 441,
     "indonesian": "Ini",
     "melayu_kampar": "Iko",
     "english": "This",
-    "audio" : "iko.mp3"
+    "audio": "iko.mp3"
   },
   {
     "no": 442,
     "indonesian": "Kiri",
     "melayu_kampar": "Kidie",
     "english": "Left",
-    "audio" : "kidie.mp3"
+    "audio": "kidie.mp3"
   },
   {
     "no": 443,
     "indonesian": "Timur",
     "melayu_kampar": "Timur",
     "english": "East",
-    "audio" : "timur.mp3"
+    "audio": "timur.mp3"
   },
   {
     "no": 444,
     "indonesian": "Barat",
     "melayu_kampar": "Barat",
     "english": "West",
-    "audio" : "barat.mp3"
+    "audio": "barat.mp3"
   },
   {
     "no": 445,
     "indonesian": "Selatan",
     "melayu_kampar": "Selatan",
     "english": "South",
-    "audio" : "selatan.mp3"
+    "audio": "selatan.mp3"
   },
   {
     "no": 446,
     "indonesian": "Utara",
     "melayu_kampar": "Utara",
     "english": "North",
-    "audio" : "utara.mp3"
+    "audio": "utara.mp3"
   },
   {
     "no": 447,
     "indonesian": "Kanan",
     "melayu_kampar": "Kanan",
     "english": "Right",
-    "audio" : "kanan.mp3"
+    "audio": "kanan.mp3"
   },
   {
     "no": 448,
     "indonesian": "Itu",
     "melayu_kampar": "Itu",
     "english": "That",
-    "audio" : "itu.mp3"
+    "audio": "itu.mp3"
   },
   {
     "no": 449,
     "indonesian": "Sungai",
     "melayu_kampar": "Kampau",
     "english": "River",
-    "audio" : "kampau.mp3"
+    "audio": "kampau.mp3"
   },
   {
     "no": 450,
     "indonesian": "Danau",
     "melayu_kampar": "Danau",
     "english": "Lake",
-    "audio" : "danau.mp3"
+    "audio": "danau.mp3"
   }
 ]
